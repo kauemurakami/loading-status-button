@@ -87,7 +87,10 @@ class MyHomePage extends StatelessWidget {
   }
 }
 ```
-
+Caso queira remover esse controlador da memoria, podemos utilizar o método herdado de `ChangeNotifier`, `dispose` para isso:
+```dart
+controller.dispose();
+```
 
 
 
