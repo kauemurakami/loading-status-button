@@ -110,9 +110,10 @@ packages:
   loading_status_button:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
+      name: loading_status_button
+      sha256: "87f7d827b75e49b18d995965bf9abaea5f7361c6ae7015a69db3fd5a521e4906"
+      url: "https://pub.dev"
+    source: hosted
     version: "1.0.0"
   matcher:
     dependency: transitive
