@@ -1,8 +1,8 @@
 name: loading_status_button
 description: "LoadingStatusButton is a Flutter package that provides an animated button with support for multiple states. It allows you to visually control the button’s status, including loading, success, and error states, with smooth and customizable animations. Ideal for interfaces that require dynamic visual feedback during asynchronous operations."
-version: 1.0.0
+version: 1.0.0+1
 homepage: https://github.com/kauemurakami/loading-status-buttons
-# publish_to: none
+publish_to: Kauê Murakami
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
