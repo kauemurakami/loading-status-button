@@ -1,18 +1,18 @@
 ## Loading Status Button
 
-It's a flutter package that allows you to manage the state of the button, along with an animation, in addition to loading with animation on the button, you can provide visual feedback like `error` or `success` too, in addition to enabling and disabling it through some logic provided.
+É um pacote flutter que permite gerenciar o estado do botão, junto com uma animação, além de carregar com animação no botão, você pode fornecer feedback visual como `erro` ou `sucesso` também, além de habilitar e desativá-lo através de alguma lógica fornecida.
 
-## Features
+## Funcionalidades
 
-`LoadingStatusButton` is a Flutter package that provides an animated button with support for multiple states. It allows you to visually control the `status` of the button, including `loading`, `success` and `error` states, in addition to being able to leave the button enabled or not with `status` `enable` and `disable`.  
-With smooth and customizable animations, it is ideal for interfaces that require dynamic visual feedback during asynchronous operations.
+`LoadingStatusButton` é um pacote Flutter que fornece um botão animado com suporte para vários estados. Ele permite controlar visualmente o `status` do botão, incluindo estados de `loading`, `success` e `error`, além de poder deixar o botão habilitado ou não com `status` `enable` e `disable`.  
+Com animações suaves e personalizáveis é ideal para interfaces que exigem feedback visual dinâmico durante operações assíncronas.
 
-## Getting started
+## Instalação
 
 ```
 $ flutter pub add loading_status_button
 ```
-or add in your dependencies in `pubspec.yaml`  
+ou adicione em suas `dependencies` em `pubspec.yaml`  
 ```yaml
 dependencies:
   loading_status_button:
@@ -20,7 +20,7 @@ dependencies:
 
 ## Usage
 
-Short example, for a more complex example go to the `/example` folder:  
+exemplo curto, para um exemplo mais complexo acesse a pasta `/example`:  
 ```dart
 import 'package:flutter/material.dart';
 import 'package:loading_status_button/loading_status_button.dart';
@@ -38,6 +38,7 @@ class MyApp extends StatelessWidget {
       title: 'Loading Status Button',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
       home: MyHomePage(),
@@ -82,9 +83,12 @@ class MyHomePage extends StatelessWidget {
     //fake fetchData
     await Future.delayed(const Duration(seconds: 5));
     await controller.setStatus(StatusButton.success);
-    await controller.setStatus(StatusButton.enable); // or another action, example navigate to another page after success
+    await controller.setStatus(StatusButton.enable); // ou outra ação, exemplo, navegar para outra página após o success
   }
 }
 ```
 
-## Additional information
+## Informações adicionais
+
+
+

@@ -3,9 +3,7 @@ import 'package:loading_status_button/src/status_button.dart';
 
 class LoadingStatusButtonController extends ChangeNotifier {
   LoadingStatusButtonController({this.initialStatus = StatusButton.enable}) {
-    // Inicialize o ValueNotifier com o valor inicial
     status = ValueNotifier<StatusButton>(initialStatus);
-    // Notifique os ouvintes que o status foi inicializado
     status.addListener(() {
       notifyListeners();
     });
