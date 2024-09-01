@@ -1,4 +1,5 @@
-## Loading Status Button
+[![Star on GitHub](https://img.shields.io/github/stars/kauemurakami/loading-status-button.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/kauemurakami/loading-status-button) 
+## loading_status_button
 
 É um pacote flutter que permite gerenciar o estado do botão, junto com uma animação, além de carregar com animação no botão, você pode fornecer feedback visual como `erro` ou `sucesso` também, além de habilitar e desativá-lo através de alguma lógica fornecida.
 
@@ -20,7 +21,7 @@ dependencies:
 
 ## Usage
 
-exemplo curto, para um exemplo mais complexo acesse a pasta `/example`:  
+Exemplo curto, para um exemplo mais complexo acesse a pasta `/example`:  
 ```dart
 import 'package:flutter/material.dart';
 import 'package:loading_status_button/loading_status_button.dart';
