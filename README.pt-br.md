@@ -3,8 +3,7 @@
 
 É um pacote flutter que permite gerenciar o estado do botão, junto com uma animação, além de carregar com animação no botão, você pode fornecer feedback visual como `erro` ou `sucesso` também, além de habilitar e desativá-lo através de alguma lógica fornecida.
 
-
-<img src="./example/assets/loadingstatusbutton.gif" width="240" height="350"/>
+<img src="https://github.com/kauemurakami/loading-status-button/raw/main/example/assets/loadingstatusbutton.gif" width="240" height="350"/>
 
 ## Funcionalidades
 
