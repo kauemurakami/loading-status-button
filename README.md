@@ -3,6 +3,8 @@
 
 It's a flutter package that allows you to manage the state of the button, along with an animation, in addition to loading with animation on the button, you can provide visual feedback like `error` or `success` too, in addition to enabling and disabling it through some logic provided.
 
+<img src="./example/assets/loadingstatusbutton.gif" width="240" height="350"/>
+
 ## Features
 
 `LoadingStatusButton` is a Flutter package that provides an animated button with support for multiple states. It allows you to visually control the `status` of the button, including `loading`, `success` and `error` states, in addition to being able to leave the button enabled or not with `status` `enable` and `disable`.  
