@@ -3,7 +3,7 @@
 
 It's a flutter package that allows you to manage the state of the button, along with an animation, in addition to loading with animation on the button, you can provide visual feedback like `error` or `success` too, in addition to enabling and disabling it through some logic provided.
 
-<img src="./example/assets/loadingstatusbutton.gif" width="240" height="350"/>
+<img src="https://github.com/kauemurakami/loading-status-button/raw/main/example/assets/loadingstatusbutton.gif" width="240" height="350"/>
 
 ## Features
 
