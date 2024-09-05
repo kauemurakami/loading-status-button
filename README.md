@@ -1,6 +1,8 @@
 [![Star on GitHub](https://img.shields.io/github/stars/kauemurakami/loading-status-button.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/kauemurakami/loading-status-button) 
 ## loading_status_button
 
+![exemplo](example/assets/loadingstatusbutton.gif)
+
 It's a flutter package that allows you to manage the state of the button, along with an animation, in addition to loading with animation on the button, you can provide visual feedback like `error` or `success` too, in addition to enabling and disabling it through some logic provided.
 
 ## Features

@@ -12,3 +12,6 @@
 
 ## 1.0.1
  - Add dart doc
+
+## 1.0.2
+ - Add gif to example
